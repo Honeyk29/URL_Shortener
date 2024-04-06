@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav {
+    background-color: rgb(235, 194, 133);
+
+}
+
+.Uppername {
+    font-family: "Workbench";
+    font-size: 40px;
+    padding: 17px;
+    justify-self: center;
+}
+
+.mainpage {
+    font-family: "dosis";
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nameof {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+
+input {
+    margin: auto;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding-left: 9px;
+}
+
+input:focus {
+    border: none;
+}
+
+#bn6 {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #232423;
+    padding: 0.3em 1.2em;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #ffffff;
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 4px #232423 inset;
+}
+
+#bn6:hover {
+    background-image: linear-gradient(\55deg,
+            transparent 10%,
+            #5c5a5a 10% 20%,
+            transparent 20% 30%,
+            #5c5a5a 30% 40%,
+            transparent 40% 50%,
+            #5c5a5a 50% 60%,
+            transparent 60% 70%,
+            #5c5a5a 70% 80%,
+            transparent 80% 90%,
+            #5c5a5a 90% 100%
+            );
+    animation: background 3s linear infinite;
+}
+.butn>a{
+    text-decoration: none;
+}
+::placeholder{
+    text-align: center;
+}
+#shorturl{
+    margin-top: 50px;
+    border-radius: 0;
+    border: 1px solid gray;
+    width: 300px;
+}
+/* .urlfinal{
+    display: flex;
+} */
+#copyitem{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#copyitem>span{
+    align-self: center;
+    font-size: 18px;
+}
+.foot{
+    font-family: "Karla", sans-serif;
+    width: 40%;
+    padding-left: 20px;
+}
+.foot2{
+    font-family: "Karla", sans-serif;
+    width: 40%;
+    padding-left: 200px;
+}
+.foot3{
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+footer{
+    display: flex;
+}
+.bottomtext{
+    position: fixed;
+    bottom: 0;
+    background-color: #232423;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    height: 40px;
+    place-content: center;
+}
+
+#shorturl::placeholder{
+    font-size: 18px;
+    justify-content: center;
+}
